@@ -687,6 +687,141 @@ body {
     }
 
 }
+@media (max-width: 576.9px) {
+    .navbar-toggle img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .section-1 {
+        height: 400px;
+    }
+
+    /* Section::02 */
+    .section-2 {
+        height: 500px;
+    }
+
+    .section2-2 {
+        margin-top: 6vw;
+        gap: 2vw;
+    }
+
+    /* Designing the Box */
+    [class^="section2-column"] {
+        height: 14vw;
+        width: 40vw;
+    }
+
+    .section2-column1,
+    .section2-column3 {
+        margin-left: 5vw;
+    }
+
+    .section2-column2,
+    .section2-column4 {
+        margin-right: 5vw;
+    }
+
+    /* Section::03 */
+    .section-3 {
+        height: 400px;
+
+    }
+
+    .section3-1 {
+
+        height: 350px;
+        width: 447px;
+        margin-left: 9vw;
+    }
+
+    .section3-blue2 img {
+        height: 250px;
+        width: 250px;
+        margin-left: 19%;
+    }
+
+    [class^="section3-card"] {
+        margin: 3vw;
+    }
+
+    /* Working with section 04:: */
+
+    .section4-aboutus {
+        margin-bottom: -22%;
+    }
+
+    .section4-heading {
+        margin-bottom: -18%;
+    }
+
+    .section4-text {
+        font-size: 2.4vw;
+    }
+
+    /* Working with section 05:: */
+
+    .section5-card1 {
+        margin-top: 20%;
+        margin-left: 24%;
+        width: 525px;
+    }
+
+    .section5-card2 {
+        height: 400px;
+        width: 600px;
+        margin-left: 10%;
+    }
+
+    .section5-card3 {
+        margin-top: 50%;
+        margin-left: 15%;
+    }
+
+    .section5-card_text {
+        font-size: 3vw;
+    }
+
+    .section5-card_text2 {
+        font-size: 2.5vw;
+    }
+
+    .section5-card_btn {
+        font-size: 1.8vw;
+        width: 13vw;
+        margin-top: 12px;
+
+    }
+
+    /* Working with section 06 */
+    /* Right section */
+    .section6-formBox {
+        flex-direction: column;
+    }
+
+    .formBox-message input {
+        width: 70%;
+    }
+
+    .formBox-btn {
+        width: 18%;
+    }
+
+    .mylabel {
+        font-size: 2vw;
+        line-height: 1;
+    }
+
+    .section6-heading2 {
+        font-size: 2vw;
+    }
+
+    .copyright {
+        font-size: 1.8vw;
+    }
+
+}
 
 
 /* Mobile Devices */
