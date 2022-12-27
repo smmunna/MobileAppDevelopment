@@ -699,18 +699,20 @@ body {
 
     /* Section::02 */
     .section-2 {
-        height: 500px;
+        height: 600px;
     }
-
+    .section2-heading2 {
+        font-size: 3vw;
+    }
     .section2-2 {
-        margin-top: 6vw;
+        margin-top: 12vw;
         gap: 2vw;
     }
 
     /* Designing the Box */
     [class^="section2-column"] {
-        height: 14vw;
-        width: 40vw;
+        height: 23vw;
+        width: 42vw;
     }
 
     .section2-column1,
@@ -742,6 +744,18 @@ body {
         margin-left: 19%;
     }
 
+    .section3-card1 {
+        font-size: 3vw;
+    }
+    .section3-card2 {
+        font-size: 2vw;
+    }
+    .section3-card3 {
+        width: 45%;
+        text-align: center;
+        font-size: 2vw;
+    }
+
     [class^="section3-card"] {
         margin: 3vw;
     }
@@ -764,19 +778,19 @@ body {
 
     .section5-card1 {
         margin-top: 20%;
-        margin-left: 24%;
-        width: 525px;
+        margin-left: 16%;
+        width: 439px;
     }
 
     .section5-card2 {
         height: 400px;
-        width: 600px;
+        width: 435px;
         margin-left: 10%;
     }
 
     .section5-card3 {
-        margin-top: 50%;
-        margin-left: 15%;
+        margin-top: 71%;
+        margin-left: 12%;
     }
 
     .section5-card_text {
