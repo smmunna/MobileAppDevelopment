@@ -1,0 +1,1228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Container Styling */
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+/* Navbar Logo design */
+.navbar-logo {
+    font-size: 3vw;
+    padding: 12px;
+}
+
+.navbar-toggle {
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-toggle img {
+    height: 50px;
+    width: 50px;
+}
+
+/* Working with section */
+
+/* Section 1 */
+.section-1 {
+    height: 700px;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-position: left center;
+
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 40px;
+}
+
+.section1__heading {
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+
+.section1__card4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
+
+[class^="section1__card4-"] {
+    height: 13vw;
+    width: 13vw;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.cover-icon {
+    height: 50px;
+    width: 50px;
+}
+
+[class^="section1__card4-"] {
+    display: flex;
+    flex-direction: column;
+    place-content: center center;
+    padding: 20px;
+}
+
+
+/* Working with sectio 02:: */
+.section-2 {
+    height: 700px;
+    background-color: rgb(215, 224, 224);
+}
+
+.section2-1 {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+[class^="section2-heading"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-heading1 {
+    margin-top: 2vw;
+    padding: 30px;
+    font-size: 3vw;
+    font-weight: bold;
+
+}
+
+.section2-heading2 {
+    margin: 0% 10% 0% 10%;
+    line-height: 2;
+    font-size: 1.5vw;
+}
+
+.section2-2 {
+    margin-top: 5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 1vw;
+}
+
+[class^="section2-column"] {
+    height: 10vw;
+    width: 35vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+.section2-column1,
+.section2-column3 {
+    margin-left: 15vw;
+}
+
+.section2-column2,
+.section2-column4 {
+    margin-right: 15vw;
+}
+
+[class^="section2-column"] {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vw;
+}
+
+
+.section2-logoimage {
+    height: 3vw;
+    width: 3vw;
+    margin-right: 3vw;
+}
+
+.section2-text1 {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+.section2-text2 {
+    font-size: medium;
+}
+
+
+/* Section::03 */
+.section-3 {
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section3-1 {
+    margin-top: 5vw;
+    height: 400px;
+    width: 850px;
+    border-radius: 14px;
+    background-color: rgb(27, 27, 204);
+    display: flex;
+    flex-direction: row;
+    place-items: center center;
+    margin-left: 15vw;
+}
+
+[class^="section3-card"] {
+    margin: 3vw;
+    color: white;
+
+}
+
+.section3-card1 {
+    font-size: 2vw;
+}
+
+.section3-card2 {
+    color: rgb(221, 227, 232);
+    font-size: 1.2vw;
+}
+
+.section3-card3 {
+    padding: 1vw;
+    outline: none;
+    border: 1.6px solid blanchedalmond;
+    border-radius: 30px;
+    width: 8vw;
+    font-size: 1vw;
+}
+
+.section3-blue2 img {
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 35%;
+}
+
+/* Working with section 04:: */
+.section-4 {
+    height: 500px;
+    background-color: #F1F1F3;
+}
+
+.section4-column {
+    height: 500px;
+    display: grid;
+    grid-template-areas:
+        "A A A A   A B B B   B B B B"
+        "A A A A   A B B B   B B B B";
+}
+
+.section4-column1,
+.section4-column2 {
+    grid-area: A;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4-column2 {
+    margin-left: 5vw;
+    grid-area: B;
+}
+
+.section4-column1 img {
+    margin-left: 12vw;
+    height: 400px;
+    width: 300px;
+    border-radius: 12px;
+}
+
+.section4-aboutus {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5vw;
+    margin-bottom: -15%;
+}
+
+.section4-heading {
+    font-size: 3vw;
+    font-weight: bold;
+    margin-bottom: -10%;
+}
+
+.section4-text {
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+
+.section4-btn {
+    border: 2px solid blue;
+    width: fit-content;
+    padding: 12px;
+    border-radius: 25px;
+    background-color: rgb(28, 28, 200);
+    color: white;
+    font-size: 1.5vw;
+}
+
+
+/* Working with section 05:: */
+.section-5 {
+    height: 700px;
+    background-color: rgb(226, 237, 247);
+}
+
+.section5card {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+}
+
+.section5-card1 {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 35%;
+    height: 350px;
+    width: 700px;
+    background-color: rgb(62, 115, 231);
+    border-radius: 12px;
+}
+
+.section5-card2 {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 20%;
+    height: 420px;
+    width: 820px;
+    background-image: url("../images/group_people.jpg");
+    background-size: cover;
+    background-position: left center;
+    border-radius: 12px;
+}
+
+.section5-card3 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 12%;
+    height: 250px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+.section5-card_text {
+    padding: 12px;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.section5-card_text2 {
+    padding: 12px;
+    font-size: 1.4vw;
+}
+
+.section5-card_btn {
+    font-size: 1.2vw;
+    border: 2px solid black;
+    width: 8vw;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 12px;
+    background-color: rgb(62, 115, 231);
+    color: white;
+}
+
+/* Working with section 06:: */
+.section-6 {
+    height: 500px;
+    background-color: rgb(32, 116, 234);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.section6-left1 {
+    margin-left: 30%;
+    margin-top: 15%;
+}
+
+.section6-left2 {
+    margin-left: 30%;
+    margin-top: 15%;
+}
+
+.section6-heading1 {
+    font-size: 3vw;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.section6-heading2 {
+    font-size: 1.3vw;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+/* Social */
+.section6-heading3 {
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.copyright {
+    font-size: 1.1vw;
+}
+
+/* Right section */
+.section6-formBox {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.section6-formBox input {
+    outline: 0;
+    border: 0;
+    background: transparent;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    color: #F1F1F3;
+}
+
+.formBox-message input {
+    outline: 0;
+    border: 0;
+    padding-top: 10%;
+    width: 64%;
+    background: transparent;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    color: #F1F1F3;
+}
+
+.formBox-btn {
+    margin-top: 5%;
+    font-size: 1.2vw;
+    color: white;
+    background-color: rgb(48, 48, 219);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 15%;
+}
+
+.mylabel {
+    font-size: 1.2vw;
+}
+
+::placeholder {
+    color: rgb(190, 190, 190);
+}
+
+/* Media Queries */
+/* Small Laptops::::: */
+
+@media (max-width: 1024px) {
+    .section-1 {
+        height: 500px;
+    }
+
+    [class^="section1__card4-"] {
+        height: 15vw;
+        width: 15vw;
+    }
+
+    /* Working with sectio 02:: */
+    .section-2 {
+        height: 550px;
+    }
+
+    .section2-heading1 {
+        font-size: 5vw;
+
+    }
+
+    .section2-heading2 {
+        font-size: 2vw;
+    }
+
+    .section2-2 {
+        margin-top: 8vw;
+    }
+
+    /* Section::03 */
+    .section-3 {
+        height: 550px;
+        background-color: white;
+    }
+
+    .section3-1 {
+        height: 500px;
+        width: 650px;
+    }
+
+    .section3-blue2 img {
+        height: 250px;
+        width: 300px;
+        margin-left: 15%;
+    }
+
+    .section3-card2 {
+        font-size: 1.5vw;
+        line-height: 1.5;
+    }
+
+    /* Working with section 04:: */
+
+    .section4-aboutus {
+        font-size: 2.5vw;
+        margin-bottom: -15%;
+    }
+
+    .section4-heading {
+        font-size: 4vw;
+        margin-bottom: -10%;
+    }
+
+    .section4-text {
+        font-size: 2vw;
+        line-height: 1.5;
+    }
+
+    /* Working with section 05:: */
+
+    .section5-card1 {
+        margin-left: 28%;
+    }
+
+    .section5-card2 {
+        margin-left: 10%;
+    }
+
+    .section5-card3 {
+        margin-top: 38%;
+        margin-left: 12%;
+    }
+
+    .section5-card_text {
+        font-size: 3vw;
+    }
+
+    .section5-card_text2 {
+        font-size: 2vw;
+    }
+
+    .section5-card_btn {
+        font-size: 1.5vw;
+        width: 10vw;
+        margin-left: 12px;
+
+    }
+
+    /* Working with section 06:: */
+    .section-6 {
+        height: 300px;
+    }
+
+    .formBox-message input {
+        padding-top: 10%;
+        width: 95%;
+    }
+
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+    .navbar-toggle img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .section-1 {
+        height: 400px;
+    }
+
+    /* Section::02 */
+    .section-2 {
+        height: 500px;
+    }
+
+    .section2-2 {
+        margin-top: 6vw;
+        gap: 2vw;
+    }
+
+    /* Designing the Box */
+    [class^="section2-column"] {
+        height: 14vw;
+        width: 40vw;
+    }
+
+    .section2-column1,
+    .section2-column3 {
+        margin-left: 5vw;
+    }
+
+    .section2-column2,
+    .section2-column4 {
+        margin-right: 5vw;
+    }
+
+    /* Section::03 */
+    .section-3 {
+        height: 400px;
+
+    }
+
+    .section3-1 {
+
+        height: 350px;
+        width: 550px;
+        margin-left: 9vw;
+    }
+
+    .section3-blue2 img {
+        height: 250px;
+        width: 300px;
+        margin-left: 19%;
+    }
+
+    [class^="section3-card"] {
+        margin: 3vw;
+    }
+
+    /* Working with section 04:: */
+
+    .section4-aboutus {
+        margin-bottom: -22%;
+    }
+
+    .section4-heading {
+        margin-bottom: -18%;
+    }
+
+    .section4-text {
+        font-size: 2.4vw;
+    }
+
+    /* Working with section 05:: */
+
+    .section5-card1 {
+        margin-top: 20%;
+        margin-left: 24%;
+        width: 525px;
+    }
+
+    .section5-card2 {
+        height: 400px;
+        width: 600px;
+        margin-left: 10%;
+    }
+
+    .section5-card3 {
+        margin-top: 50%;
+        margin-left: 15%;
+    }
+
+    .section5-card_text {
+        font-size: 3vw;
+    }
+
+    .section5-card_text2 {
+        font-size: 2.5vw;
+    }
+
+    .section5-card_btn {
+        font-size: 1.8vw;
+        width: 13vw;
+        margin-top: 12px;
+
+    }
+
+    /* Working with section 06 */
+    /* Right section */
+    .section6-formBox {
+        flex-direction: column;
+    }
+
+    .formBox-message input {
+        width: 70%;
+    }
+
+    .formBox-btn {
+        width: 18%;
+    }
+
+    .mylabel {
+        font-size: 2vw;
+        line-height: 1;
+    }
+
+    .section6-heading2 {
+        font-size: 2vw;
+    }
+
+    .copyright {
+        font-size: 1.8vw;
+    }
+
+}
+
+
+/* Mobile Devices */
+@media (max-width: 425.5px) {
+    .container {
+        height: 350vh;
+    }
+
+    .navbar-logo {
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 22px;
+
+    }
+
+    .navbar-toggle {
+        font-size: large;
+    }
+
+
+    .section-1 {
+        height: 700px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section1__card4 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section1__heading {
+        font-size: 8vw;
+        margin: 12px;
+
+    }
+
+    [class^="section1__card4-"] {
+        height: 30vw;
+        width: 80vw;
+    }
+
+    [class^="section1__card4-"] {
+        align-items: center;
+        font-size: 5vw;
+    }
+
+    /* Swction 02:: */
+    .section2-heading1 {
+        font-size: 10vw;
+    }
+
+    .section2-heading2 {
+        line-height: 2;
+        font-size: 3.8vw;
+    }
+
+    /* Section::02 */
+    .section-2 {
+        height: 950px;
+    }
+
+    .section2-2 {
+        margin-top: 34vw;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 3vw;
+    }
+
+    /* Designing the Box */
+    [class^="section2-column"] {
+        width: 80%;
+        height: 32vw;
+    }
+
+    .section2-column1,
+    .section2-column3 {
+        margin-right: 5vw;
+    }
+
+    .section2-column2,
+    .section2-column4 {
+        margin-left: 5vw;
+    }
+
+    [class^="section2-column"] {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2-logoimage {
+        margin: 2vw;
+        height: 8vw;
+        width: 8vw;
+    }
+
+    .section2-text1 {
+        margin: 2vw;
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+
+    .section2-text2 {
+        margin: 2vw;
+        margin-bottom: 3vw;
+    }
+
+    /* Section::03 */
+    .section-3 {
+        height: 400px;
+    }
+
+    .section3-1 {
+        padding: 14px;
+        margin-top: 5vw;
+        height: 230px;
+        width: 300px;
+        margin-left: 9vw;
+        flex-direction: column;
+    }
+
+    .section3-blue2 img {
+        height: 150px;
+        width: 200px;
+        margin-left: 42%;
+    }
+
+    [class^="section3-card"] {
+        margin: 3vw;
+    }
+
+    .section3-card1 {
+        font-size: 3vw;
+    }
+
+    .section3-card2 {
+        font-size: 2.8vw;
+    }
+
+    .section3-card3 {
+        font-size: 3vw;
+        width: 20vw;
+    }
+
+    /* Working with section 04:: */
+    .section-4 {
+        height: 500px;
+    }
+
+    .section4-column {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section4-column1 img {
+        margin: -20% 0 80% 95%;
+        height: 50vw;
+        width: 50vw;
+    }
+
+    .section4-aboutus {
+        font-size: 3.2vw;
+        margin-top: 60%;
+    }
+
+    .section4-heading {
+        margin-bottom: -25%;
+    }
+
+    .section4-text {
+        font-size: 3.2vw;
+        margin-top: 2%;
+    }
+
+    .section4-btn {
+        font-size: 2.6vw;
+        margin-top: -15%;
+    }
+
+    /* Working with section 05:: */
+    .section-5 {
+        height: 600px;
+    }
+
+    .section5-card1 {
+        height: 380px;
+        width: 300px;
+    }
+
+    .section5-card2 {
+
+        width: 350px;
+        margin-left: 5%;
+    }
+
+    .section5-card3 {
+        height: 200px;
+        width: 300px;
+        margin-top: 85%;
+        margin-left: 10%;
+    }
+
+    .section5-card_text {
+        font-size: 4vw;
+    }
+
+    .section5-card_text2 {
+        font-size: 3vw;
+    }
+
+    .section5-card_btn {
+        font-size: 2vw;
+        width: 18vw;
+        margin-top: 12px;
+    }
+
+
+    /* Working with section 06 */
+    /* Right section */
+    .section6-left2 {
+        margin-top: 30%;
+    }
+
+    .section6-formBox input {
+        width: 80%;
+    }
+
+    .formBox-message input {
+        width: 80%;
+    }
+
+    .formBox-btn {
+        font-size: 3vw;
+        width: 40%;
+    }
+
+    .mylabel {
+        font-size: 4vw;
+    }
+
+    .section6-heading1 {
+        font-size: 4.4vw;
+    }
+
+    .section6-heading2 {
+        font-size: 3.3vw;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    .social-icon {
+        height: 20px;
+        width: 20px;
+    }
+
+}
+
+
+/* Width for 375 Pixels */
+@media (max-width:375.5px) {
+    .section-1 {
+        height: 650px;
+    }
+
+    /* Section::02 */
+    .section-2 {
+        height: 1150px;
+    }
+
+    .section2-heading2 {
+        line-height: 1.5;
+        font-size: 5vw;
+        text-align: left;
+    }
+
+    .section2-2 {
+        margin-top: 50vw;
+    }
+
+    /* Designing the Box */
+    [class^="section2-column"] {
+        width: 80%;
+        height: 45vw;
+    }
+
+    .section2-logoimage {
+        margin-left: 3vw;
+        height: 8vw;
+        width: 8vw;
+    }
+
+    .section2-text1 {
+        margin-left: 3vw;
+        font-size: 6vw;
+        margin-bottom: 2vw;
+    }
+
+    .section2-text2 {
+        margin-left: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    /* Section::03 */
+    .section-3 {
+        height: 400px;
+    }
+
+    .section3-1 {
+        margin-top: 5vw;
+        height: 300px;
+    }
+
+    .section3-blue2 img {
+        height: 150px;
+        width: 200px;
+        margin-left: 35%;
+    }
+
+    .section3-card1 {
+        font-size: 4.5vw;
+    }
+
+    .section3-card2 {
+        font-size: 3vw;
+    }
+
+    .section3-card3 {
+        padding: 2vw;
+        width: 15vw;
+        font-size: 2vw;
+    }
+
+    /* Working with section 04:: */
+
+    .section4-aboutus {
+        margin-top: 70%;
+    }
+
+    /* Working with section 05:: */
+    .section-5 {
+        height: 600px;
+    }
+
+    .section5-card1 {
+        width: 290px;
+    }
+
+    .section5-card2 {
+        width: 320px;
+    }
+
+    .section5-card3 {
+        margin-top: 95%;
+        margin-left: 3%;
+    }
+
+    .section5-card_text {
+        font-size: 4vw;
+    }
+
+    .section5-card_text2 {
+        font-size: 4vw;
+    }
+
+    .section5-card_btn {
+        font-size: 2vw;
+        width: 18vw;
+        margin-top: 5px;
+    }
+}
+
+
+@media (max-width:320.8px) {
+    .section-1 {
+        height: 600px;
+    }
+
+    /* Section::02 */
+    .section-2 {
+        height: 1150px;
+    }
+
+    .section2-heading2 {
+        line-height: 1.5;
+        font-size: 5vw;
+        text-align: left;
+    }
+
+    .section2-2 {
+        margin-top: 50vw;
+    }
+
+    /* Designing the Box */
+    [class^="section2-column"] {
+        width: 80%;
+        height: 55vw;
+    }
+
+    .section2-logoimage {
+        margin: 4vw;
+        height: 10vw;
+        width: 10vw;
+    }
+
+    .section2-text1 {
+        margin: 4vw;
+        font-size: 6vw;
+        margin-bottom: 2vw;
+    }
+
+    .section2-text2 {
+        margin: 4vw;
+        margin-bottom: 3vw;
+    }
+
+    /* Section::03 */
+    .section-3 {
+        height: 395px;
+    }
+
+    .section3-1 {
+        margin-top: 5vw;
+        height: 300px;
+        width: 250px;
+    }
+
+    .section3-blue2 img {
+        height: 150px;
+        width: 200px;
+        margin-left: 23%;
+    }
+
+    .section3-card1 {
+        font-size: 5vw;
+    }
+
+    .section3-card2 {
+        font-size: 3.5vw;
+    }
+
+    .section3-card3 {
+        padding: 3vw;
+        width: 22vw;
+        font-size: 3vw;
+    }
+
+    /* Working with section 04:: */
+
+    .section4-aboutus {
+        font-size: 4vw;
+        margin-top: 90%;
+    }
+
+    .section4-heading {
+        font-size: 6vw;
+    }
+
+    .section4-text {
+        font-size: 4vw;
+        margin-bottom: 2%;
+    }
+
+    /* Working with section 05:: */
+    .section-5 {
+        height: 600px;
+    }
+
+    .section5-card1 {
+        width: 230px;
+    }
+
+    .section5-card2 {
+        width: 275px;
+    }
+
+    .section5-card3 {
+        height: 230px;
+        margin-top: 100%;
+        margin-left: 1.5%;
+    }
+
+    .section5-card_text {
+        font-size: 6vw;
+    }
+
+    .section5-card_text2 {
+        font-size: 5vw;
+    }
+
+    .section5-card_btn {
+        font-size: 3vw;
+        width: 28vw;
+        margin-top: 5px;
+    }
+
+    /* Working with section 06 */
+    /* Right section */
+    .section6-left2 {
+        margin-top: 30%;
+    }
+
+    .section6-formBox input {
+        width: 80%;
+    }
+
+    .formBox-message input {
+        width: 80%;
+    }
+
+    .formBox-btn {
+        width: 48%;
+    }
+
+    .mylabel {
+        font-size: 4vw;
+    }
+
+    .section6-heading1 {
+        font-size: 4.4vw;
+    }
+
+    .section6-heading2 {
+        font-size: 4.2vw;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    .social-icon {
+        height: 20px;
+        width: 20px;
+    }
+
+
+}
