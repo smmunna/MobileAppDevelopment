@@ -1375,3 +1375,184 @@ body {
 
 
 }
+
+
+
+@media (max-width:250.8px) {
+    .section-1 {
+        height: 600px;
+    }
+
+    /* Section::02 */
+    .section-2 {
+        height: 1194px;
+    }
+
+    .section2-heading2 {
+        line-height: 1.5;
+        font-size: 6vw;
+        text-align: left;
+    }
+
+    .section2-2 {
+        margin-top: 50vw;
+    }
+
+    /* Designing the Box */
+    [class^="section2-column"] {
+        width: 80%;
+        height: 82vw;
+    }
+
+    .section2-logoimage {
+        margin: 4vw;
+        height: 10vw;
+        width: 10vw;
+    }
+
+    .section2-text1 {
+        margin: 4vw;
+        font-size: 6vw;
+        margin-bottom: 2vw;
+    }
+
+    .section2-text2 {
+        margin: 4vw;
+        margin-bottom: 3vw;
+    }
+
+    /* Section::03 */
+    .section-3 {
+        height: 395px;
+    }
+
+    .section3-1 {
+        margin-top: 5vw;
+        height: 300px;
+        width: 211px;
+    }
+
+    .section3-blue2 img {
+        height: 154px;
+        width: 205px;
+        margin-left: 0%;
+    }
+
+    .section3-card1 {
+        font-size: 5vw;
+    }
+
+    .section3-card2 {
+        font-size: 4vw;
+    }
+
+    .section3-card3 {
+        width: 45%;
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    /* Working with section 04:: */
+
+    .section4-column1 img {
+        margin: -180% 0 80% 95%;
+        height: 50vw;
+        width: 50vw;
+    }
+    .section4-aboutus {
+        font-size: 4vw;
+        margin-top: 53%;
+    }
+    .section4-aboutus {
+        font-size: 4vw;
+        margin-top: 90%;
+    }
+
+    .section4-heading {
+        font-size: 6vw;
+    }
+    .section4-column2 {
+        margin-left: 21vw;
+        grid-area: B;
+    }
+
+    .section4-text {
+        font-size: 4vw;
+        margin-bottom: 2%;
+    }
+
+    /* Working with section 05:: */
+    .section-5 {
+        height: 500px;
+    }
+
+    .section5-card1 {
+        width: 230px;
+    }
+
+    .section5-card2 {
+        width: 230px;
+    }
+
+    .section5-card3 {
+        height: 209px;
+        margin-top: 111%;
+        margin-left: 9.5%;
+        width: 85%;
+    }
+    .section5-card_text {
+        font-size: 6vw;
+    }
+
+    .section5-card_text2 {
+        font-size: 5vw;
+    }
+
+    .section5-card_btn {
+        font-size: 3vw;
+        width: 28vw;
+        margin-top: 5px;
+    }
+
+    /* Working with section 06 */
+    /* Right section */
+    .section6-left2 {
+        margin-top: 30%;
+    }
+
+    .section6-formBox input {
+        width: 80%;
+    }
+
+    .formBox-message input {
+        width: 80%;
+    }
+
+    .formBox-btn {
+        width: 48%;
+    }
+
+    .mylabel {
+        font-size: 4vw;
+    }
+
+    .section6-heading1 {
+        font-size: 4.4vw;
+    }
+
+    .section6-heading2 {
+        font-size: 4.2vw;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    .social-icon {
+        height: 20px;
+        width: 20px;
+    }
+
+
+}
