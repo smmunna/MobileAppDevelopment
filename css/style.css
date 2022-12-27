@@ -1383,6 +1383,11 @@ body {
         height: 600px;
     }
 
+    .section1__card4 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15vw;
+    }
     /* Section::02 */
     .section-2 {
         height: 1194px;
